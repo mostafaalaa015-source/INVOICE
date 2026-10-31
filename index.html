@@ -63,6 +63,8 @@ input:focus-visible,button:focus-visible{outline:2px solid var(--leaf);outline-o
 .pvtop button{flex:1;font:inherit;font-weight:600;border:1px solid var(--leaf);background:transparent;color:var(--leaf);border-radius:5px;padding:9px 12px;cursor:pointer}
 .pvtop button.main{background:var(--leaf);color:var(--leaf-ink)}
 .pvtop button{font-size:14px;padding:9px 4px}
+input[type=number]{-moz-appearance:textfield;appearance:textfield}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
 .doc{background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:18px;max-width:720px;margin:0 auto 24px}
 .doc h2{margin:0;font-size:22px}.doc .brand{color:var(--mute);font-size:14px;margin-bottom:10px}
 .doc .info{display:flex;flex-wrap:wrap;gap:4px 18px;margin-bottom:12px;font-size:14px}
@@ -93,7 +95,7 @@ input:focus-visible,button:focus-visible{outline:2px solid var(--leaf);outline-o
 .doc .ft{text-align:center;padding:10px;font-size:13px;color:var(--mute)}
 .doc{position:relative}
 .sheet{position:relative;overflow:hidden}
-.doc .wm,.sheet .wm{position:absolute;inset:0;overflow:hidden;color:var(--ink);opacity:.04;pointer-events:none;z-index:1}
+.doc .wm,.sheet .wm{position:absolute;inset:0;overflow:hidden;color:var(--ink);opacity:.07;pointer-events:none;z-index:1}
 .doc .wmi,.sheet .wmi{position:absolute;top:-50%;left:-50%;width:200%;height:200%;transform:rotate(-25deg);font-size:22px;font-weight:700;line-height:3.2;text-align:center}
 .doc .wmi span,.sheet .wmi span{display:inline-block;margin:0 22px;white-space:nowrap}
 @media print{
